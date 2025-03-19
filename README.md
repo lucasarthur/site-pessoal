@@ -7,7 +7,7 @@ Este repositório contém o código fonte do meu site pessoal. O site foi desenv
 * **Front-end:**
     * HTML5
     * CSS3
-    * JavaScript (ES6+)
+    * JavaScript
 
 ## Como Executar Localmente
 
