@@ -11,6 +11,6 @@ Este repositório contém o código fonte do meu site pessoal. O site foi desenv
 
 ## Como Executar Localmente
 
-1.  Clone o repositório: `git clone https://github.com/dolthub/dolt`
+1.  Clone o repositório: `git clone https://github.com/lucasarthur/site-pessoal`
 2.  Navegue até o diretório do projeto: `cd [nome-do-repositório]`
 3.  Abra o arquivo `index.html` no seu navegador.
