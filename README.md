@@ -1,15 +1,15 @@
-# Site Pessoal
+# Site pessoal
 
-Este repositório contém o código fonte do meu site pessoal. O site foi desenvolvido para: apresentar meu portfólio, compartilhar meus projetos, etc.
+Este repositório contém o código fonte do meu site pessoal. O site foi desenvolvido para: Compartilhar meus projetos, e falar um pouco sobre mim.
 
-## Tecnologias Utilizadas
+## Tecnologias utilizadas
 
 * **Front-end:**
     * HTML5
     * CSS3
     * JavaScript
 
-## Como Executar Localmente
+## Como executar localmente
 
 1.  Clone o repositório: `git clone https://github.com/lucasarthur/site-pessoal`
 2.  Navegue até o diretório do projeto: `cd site-pessoal/html`
