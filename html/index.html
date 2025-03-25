@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/favicon.ico">
     <title>Bem vindo ao meu site :)</title>
 </head>
 <body>
@@ -12,27 +13,53 @@
             <h2>Olá, sou Arthur! Explore meu site e veja como demonstro minhas habilidades 
             em desenvolvimento e meu constante interesse por aprendizado</h2>
     </div>
-    <div id="container-slides" data-componente="slideshow">
-        <div role="list"></div>
-            <div class="slide">
-                <img src="/img/CADI.jpeg" alt="">
+    <div class="container-slides">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide-first">
+                <img src="/img/CADI.jpeg" alt="imagem 1">
+                    <p>Conclui no ano de 2022 o ensino médio no Colégio Adventista de Itabuna</p>
             </div>
             <div class="slide">
-                <img src="/img/digital-house.jpg" alt="">
+                <img src="/img/digital-house.jpg" alt="imagem 2">
+                    <p>No ano de 2022 também fiz o curso de desenvolvimento da Digital House, mas pausei no segundo
+                    semestre devido a não conseguir tempo devido a escola, enem e outro curso para o enem.</p>
             </div>
             <div class="slide">
-                <img src="/img/MARCA_IFBA_CAMPUS_HORIZONTAL_completa_CMYK_EUNAPOLIS.png" alt="">
+                <img src="/img/MARCA_IFBA_CAMPUS_HORIZONTAL_completa_CMYK_EUNAPOLIS.png" alt="imagem 3">
+                    <p>No inicio de 2023 fui aprovado em Análise e desenvolvimento de sistemas no Instituto Federal
+                    da Bahia na cidade de Eunápolis</p>
             </div>
             <div class="slide">
-                <img src="/img/coding.jpg" alt="">
+                <img src="/img/coding.jpg" alt="imagem 4">
+                    <p>No momento cursando o quinto semestre com previsão de término para o final do ano de 2026</p>
             </div>
+
+            <div class="auto-navigation">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn1"></label>
+            <label for="radio1" class="manual-btn2"></label>
+            <label for="radio1" class="manual-btn3"></label>
+            <label for="radio1" class="manual-btn4"></label>
+        </div>
     </div>
     <div id="container-me">
         <p>Atualmente estudo Análise e desenvolvimento de sistemas (ADS) no Instituto Federal da Bahia (IFBA),
             estou no momento no quinto semestre do curso com previsão de término no final do ano de 2026, na faculdade
             foram realizados diversos projetos em equipe e também individual com foco em criar soluções, meu maior
             foco nos projetos em equipe foram com tecnologias web (HTML5, CSS3, JS), mas nos individuais foram com foco no back-end (Python),
-            tenho muito vontade de continuar aprendendo novas tecnologias, e sempre procuro evoluir sempre que possível em tudo. 
+            tenho muita vontade de continuar aprendendo novas tecnologias, melhorar oque já sei, e continuar sempre
+            em evolução. 
         </p>
     </div>
     <div class="container-medias">
