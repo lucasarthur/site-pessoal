@@ -8,13 +8,13 @@ body {
 .container-slides {
     margin: 0 auto;
     width: 800px;
-    height: 400px;
+    height: 475px;
     overflow: hidden;
 }
 
 .slides {
     width: 400%;
-    height: 400px;
+    height: 475px;
     display: flex;
 }
 
@@ -29,6 +29,7 @@ body {
 
 .slide img{
     width: 800px;
+    height: 475px;
 }
 
 .manual-navigation {
@@ -38,5 +39,74 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.manual-btn {
+    border: 2px solid gray  ; 
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+.auto-navigation div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.auto-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.auto-navigation div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .auto-navigation .auto-btn1{
+    background-color: white;
+}
+
+#radio2:checked ~ .auto-navigation .auto-btn2{
+    background-color: white;
+}
+
+#radio3:checked ~ .auto-navigation .auto-btn3{
+    background-color: white;
+}
+
+#radio4:checked ~ .auto-navigation .auto-btn4{
+    background-color: white;
+}
+
 
 
