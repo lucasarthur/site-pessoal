@@ -17,6 +17,12 @@ body {
     font-size: 60px;
 }
 
+.container-informations h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+    
+}
+
 .container-slides {
     margin: 0 auto;
     width: 800px;
@@ -120,9 +126,21 @@ body {
     background-color: white;
 }
 
+.container-me {
+    padding: 90px;
+    font-size: 25px;
+    text-align: justify;
+}
+
 footer {
     background-color: rgb(107, 235, 107);
+    height: 15vh;
     
+}
+
+footer p {
+    height: 3px;
+    padding-left: 5px;
 }
 
 .container-medias {
@@ -132,11 +150,13 @@ footer {
 }
 
 .github {
+    padding-top: 3vh;
     width: 70px;
     height: 70px;
 }
 
 .linkedin {
+    padding-top: 3vh;
     width: 50px;
     height: 50px;
 }
