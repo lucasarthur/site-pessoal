@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: rgb(207, 255, 214);
+    background-color: #78b3a4;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
     padding: 0;
@@ -145,10 +145,10 @@ body {
 
 .texto {
     font-size: 25px;
-    background-color: gray;
+    background-color: #5d9e7e;
     padding: 20px;
     text-align: justify;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 40%;
     opacity: 0;
     transform: translateY(20px);
@@ -175,18 +175,22 @@ body {
 }   
 
 .container-medias {
-    background-color: gray;
+    width: 30%;
+    height: 30%;
+    background-color: #5d9e7e;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
 .github {
+    padding: 25px;
     width: 100px;
     height: 100px;
 }
 
 .linkedin {
+    padding: 25px;
     width: 100px;
     height: 100px;
 }
