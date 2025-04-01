@@ -1,6 +1,13 @@
+/* .color1 { #2b2318 };
+.color2 { #524835 };
+.color3 { #56704b };
+.color4 { #5d9e7e };
+.color5 { #78b3a4 }; */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
+    display: grid;
     background-color: #78b3a4;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
@@ -8,13 +15,39 @@ body {
 }
 
 .container-informations {
-    display: grid;
+    margin-top: 10px;
     text-align: center;
     justify-content: center;
 }
 
-.container-informations h1 {
-    font-size: 60px;
+.container-informations span {
+    font-size: 80px;
+    font-weight: 800;
+    position: relative;
+}
+
+.container-informations span::before{
+    content: "";
+    color: #000000;
+    animation: palavras 20s infinite;
+}
+
+@keyframes palavras {
+    0%, 20%{
+        content: "Seja bem vindo";
+    }
+    21%, 40%{
+        content: "Aqui você";
+    }
+    41%, 60% {
+        content: "Conhecerá mais";
+    }
+    61%, 80% {
+        content: "Sobre mim";
+    }
+    81%, 100% {
+        content: ":)";
+    }
 }
 
 .container-informations h2 {
@@ -53,7 +86,7 @@ body {
 
 .slide img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 75%;
 }
 
 .slide p {
@@ -176,7 +209,7 @@ body {
 
 .container-medias {
     width: 30%;
-    height: 30%;
+    height: 100%;
     background-color: #5d9e7e;
     justify-content: center;
     align-items: center;
