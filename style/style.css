@@ -14,19 +14,19 @@ body {
     padding: 0;
 }
 
-.container-informations {
+#container-informations {
     margin-top: 10px;
     text-align: center;
     justify-content: center;
 }
 
-.container-informations span {
+#container-informations span {
     font-size: 80px;
     font-weight: 800;
     position: relative;
 }
 
-.container-informations span::before{
+#container-informations span::before{
     content: "";
     color: #000000;
     animation: palavras 20s infinite;
@@ -50,12 +50,12 @@ body {
     }
 }
 
-.container-informations h2 {
+#container-informations h2 {
     font-size: 40px;
     padding-bottom: 50px;   
 }
 
-.container-textos {
+#container-textos {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -93,7 +93,7 @@ body {
     transform: translateX(0);
 }   
 
-.container-medias {
+#container-medias {
     padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
